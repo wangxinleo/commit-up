@@ -1,8 +1,8 @@
 // 引入fs模块
 const path = require('path');
 const fs = require('fs');
-const needLoadFilePath = '../src';
-const TempFolder = '../temp';
+const needLoadFilePath = './src';
+const TempFolder = './temp';
 
 // 定义一个async函数，接收一个文件夹路径作为参数
 const readFolder = async (folderPath) => {

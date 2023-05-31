@@ -3,7 +3,7 @@ const fs = require('fs')
 // 引入path模块
 const path = require('path')
 // 定义要删除的文件夹路径
-const dirPath = '../temp'
+const dirPath = './temp'
 // 定义一个异步函数，用于删除文件夹中的所有文件和子文件夹
 async function deleteDir(dir) {
   // 读取文件夹中的内容
