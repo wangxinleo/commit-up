@@ -11,12 +11,12 @@ count=1
 # 循环执行
 for((i=0;i<$count;i++))
 do
-node ./add-code.js
+node ./add-code.cjs
 git add .
 msg="fix: 函数文件调整"
 git commit -m "$msg"
 
-node ./remove-code.js
+node ./remove-code.cjs
 git add .
 msg="fix: 删除函数文件调整"
 git commit -m "$msg"
